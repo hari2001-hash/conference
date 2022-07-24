@@ -3,7 +3,8 @@ import AboutSkcet from "../About/AboutSkcet";
 import CallForPaper from "../Call for Paper/CallForPaper";
 import Committe from "../Committee/Committee";
 import Contact from "../Contact/Contact";
-
+//Hari
+import Venue from "../Venue/Venue";
 
 function Content(props){
 
@@ -57,6 +58,16 @@ function Content(props){
             </div>
         );
     }
+      //Hari
+    else if(tab === "Venue")
+    {
+        return(
+            <div className={pagestyle}>
+                <Venue />
+            </div>
+          );
+    }
+
 
 }
 
